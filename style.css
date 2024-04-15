@@ -1,0 +1,64 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #13171f;
+}
+
+.ctn-form {
+    width: 70%;
+    height: min-content;
+    margin: 5% auto;
+    background-color: #2d2d2d;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+form {
+    width: 100%;
+    display: grid;
+}
+
+label {
+    color: white;
+}
+
+#inp-ip {
+    margin: 10px 0 5px 0;
+    border: #535353 2px solid;
+    height: 40px;
+    background: #2d2d2d;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+small {
+    color: #b2b2b2;
+}
+
+#inp-ip:focus {
+    outline: rgb(174, 174, 174) 1px solid;
+}
+
+button {
+    margin-top: 20px;
+    background-color: rgb(0, 175, 224);
+    padding: 12px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.resultados {
+    background: #535353;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #dcdcdc;
+}
